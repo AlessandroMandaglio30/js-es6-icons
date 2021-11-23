@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.sopra {
+.sopra{
     color: #29b1dd;
     height: 50px;
     padding: 15px 0 0 10px;
@@ -27,3 +27,32 @@ main {
     min-height: calc(100vh - 100px);
 }
 
+#container {
+    width: 90%;
+    height: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: calc((100% / 5) - 30px);
+    height: calc(100% / 8);
+    background-color: green;
+    border-radius: 30px;
+}
+
+.card i{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card span{
+    text-transform: uppercase;
+}
