@@ -1,4 +1,4 @@
-[
+const card = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -133,9 +133,10 @@ function addCard(iCard) {
 	container.innerHTML +=
 		`
        <div class="card">
-            <i class="${(iCard.family + ' ' + iCard.prefix + iCard.name)}"></i>
+            <i class="${(iCard.family + ' ' + iCard.prefix + iCard.name)}" style= "color: ${iCard.color}"></i>
             <span>${iCard.name}</span>
-        </div> `
-}
+        </div> 
+		`
 
+}
 
