@@ -119,3 +119,24 @@
 
 // 		Milestone 3 Aggiungere alla pagina una select in cui le options corrispondono ai vari tipi di icone(animal, vegetable, user).Quando l'utente seleziona un tipo dalla select, visualizzare solamente le icone corrispondenti.
 
+
+costruzioniCard();
+
+
+
+function costruzioniCard() {
+	for (let i = 0; i < card.length; i++) {
+		addCard(card[i])
+	}
+}
+
+function addCard(iCard) {
+	const container = document.getElementById('container');
+	container.innerHTML +=
+		`
+       <div class="card">
+            <i class="${(iCard.family + ' ' + iCard.prefix + iCard.name)}"></i>
+            <span>${iCard.name}</span>
+        </div> `
+
+}
