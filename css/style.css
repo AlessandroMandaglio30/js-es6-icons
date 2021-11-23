@@ -1,0 +1,28 @@
+main {
+    background-color: lightgrey;
+}
+
+header {
+    height: 48px;
+}
+
+.header-title {
+    color: #29B1DD;
+}
+
+.form-select-width {
+    width: 150px;
+}
+
+.blue-bg {
+    background-color: #29B1DD;
+    height: 90px;
+}
+
+.my-rounded {
+    border-radius: 20px;
+}
+
+.my-width {
+    width: 90%;
+}
